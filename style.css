@@ -1,4 +1,3 @@
-/* Общие стили */
 h1 {
     color: #66fcf1
 }
@@ -21,15 +20,19 @@ img {
     color: #0b0c10;
 }
 
+.internal-link {
+    color:  #cefffc;
+}
+
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #0b0c10;
     color: #c5c6c7;
 }
 
-/* Шапка */
+
 header {
     background-color: #1f2833;
     color: white;
@@ -61,7 +64,7 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Разделы */
+
 section {
     padding: 20px;
     margin: 10px;
@@ -70,20 +73,39 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Таблица */
 table {
     width: 100%;
     border-collapse: collapse;
+    overflow: hidden; /* Чтобы закругления корректно отображались */
+    border-radius: 10px; /* Закругляем углы всей таблицы */
 }
 
 table, th, td {
-    border: 1px solid #45a29e;
+    border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
 }
 
 table th {
     background-color: #45a29e;
+    color: white;
+}
+
+/* Закругляем верхние углы отдельно */
+table th:first-child {
+    border-top-left-radius: 10px;
+}
+
+table th:last-child {
+    border-top-right-radius: 10px;
+}
+
+table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
 }
 
 /* Футер */

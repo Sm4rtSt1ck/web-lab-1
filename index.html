@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Домашняя страница</title>
-    <!-- Подключаем Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <!-- Подключаем CSS -->
+    <!-- Шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Шапка с меню -->
+    <!-- Хедер -->
     <header>
         <h1>Лабораторная работа по основам веб-технологий</h1>
         <nav>
             <ul>
-                <li><a href="#about">Обо мне</a></li>
-                <li><a href="#gallery">Галерея</a></li>
-                <li><a href="#table">Моя таблица</a></li>
-                <li><a href="#contact">Контакты</a></li>
+                <li><a href="#about" class="internal-link">Обо мне</a></li>
+                <li><a href="#gallery" class="internal-link">Галерея</a></li>
+                <li><a href="#table" class="internal-link">Моя таблица</a></li>
+                <li><a href="#contact" class="internal-link">Контакты</a></li>
             </ul>
         </nav>
         <div class="reverse-round-top">.</div>
@@ -40,7 +42,7 @@
         <p>Это кукумбер.</p>
     </section>
 
-    <!-- Таблица с осмысленным содержанием -->
+    <!-- Таблица с расписанием Политеха -->
     <section id="table" style="margin-bottom: 30px;">
         <h2>Моя таблица</h2>
         <table>
@@ -66,10 +68,10 @@
         </table>
     </section>
 
-    <!-- Футер с контактной информацией -->
+    <!-- Футер -->
     <footer id="contact">
         <div class="reverse-round-bottom">.</div>
-        <p>Связаться со мной можно по email: <a href="mailto:leonidpashtet@gmail.com">leonidpashtet@gmail.com</a></p> 
+        <p>Связаться со мной можно по email: <a href="mailto:leonidpashtet@gmail.com" style="color: #66fcf1;">leonidpashtet@gmail.com</a></p> 
         <p>&copy; 2024 Все права защищены</p>
     </footer>
 </body>
