@@ -1,0 +1,99 @@
+/* Общие стили */
+h1 {
+    color: #66fcf1
+}
+
+img {
+    border-radius: 20px;
+}
+
+.reverse-round-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #0b0c10;
+    color: #0b0c10;
+}
+
+.reverse-round-bottom {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #0b0c10;
+    color: #0b0c10;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0b0c10;
+    color: #c5c6c7;
+}
+
+/* Шапка */
+header {
+    background-color: #1f2833;
+    color: white;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: -15px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Разделы */
+section {
+    padding: 20px;
+    margin: 10px;
+    background-color: #1f2833;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Таблица */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #45a29e;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #45a29e;
+}
+
+/* Футер */
+footer {
+    background-color: #1f2833;
+    color: #c5c6c7;
+    text-align: center;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: -25px;
+}
